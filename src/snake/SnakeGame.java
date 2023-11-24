@@ -38,10 +38,10 @@ public class SnakeGame extends JPanel implements ActionListener {
     private static final int WIDTH = 400;
     private static final int HEIGHT = 400;
     private static final int TILE_SIZE = 20;
-    private static final int DELAY = 200;
+    private static final int DELAY = 100;
     
      private long ultimoTiempoPresionado = 0; // Tiempo de la última tecla presionada
-     private final long tiempoDeEspera = 199; // Tiempo de espera en milisegundos (100 ms en este caso)
+     private final long tiempoDeEspera = 101; // Tiempo de espera en milisegundos (100 ms en este caso)
     
     
   private boolean canKeyPress = true;
